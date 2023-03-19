@@ -22,6 +22,8 @@ def test_build_word_dict_builds_guessed_letter_data():
 
     # Act
     letters_guessed = build_word_dict(word)
+    
+
 
     # Assert
     assert letters_guessed == {
